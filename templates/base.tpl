@@ -1,6 +1,6 @@
 {{- define "base" }}
-<div class="container">
-    <div class="item" id="{{ .ChartID }}" style="width:{{ .Initialization.Width }};height:{{ .Initialization.Height }};"></div>
+<div class="go-echarts-container">
+    <div class="go-echarts-item" id="{{ .ChartID }}" style="width:{{ .Initialization.Width }};height:{{ .Initialization.Height }};"></div>
 </div>
 
 <script type="text/javascript">

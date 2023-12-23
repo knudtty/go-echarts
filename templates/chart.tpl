@@ -5,8 +5,8 @@
 <body>
     {{- template "base" . }}
 <style>
-    .container {margin-top:30px; display: flex;justify-content: center;align-items: center;}
-    .item {margin: auto;}
+    .go-echarts-container {margin-top:30px; display: flex;justify-content: center;align-items: center;}
+    .go-echarts-item {margin: auto;}
 </style>
 </body>
 </html>
